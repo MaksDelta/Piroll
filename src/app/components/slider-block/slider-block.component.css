@@ -1,0 +1,48 @@
+.bg {
+  /* width: 1366px; */
+  /* height: 500px; */
+  width: 100%;
+  /* margin: 0px 0 200px; */
+  /* padding: 178px 281px 60px 278px; */
+  background-color: #10c9c3;
+  border: #10c9c3 1px solid;
+}
+
+.-Outstanding-job-and-exceeded-all-expectations-It-was-a-pleas {
+  /* width: 807px; */
+  /* height: 99px; */
+  margin: 178px 281px 35px 278px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.24px;
+  text-align: center;
+  color: #fff;
+  display: block;
+}
+
+.-Outstanding-job-and-exceeded-all-expectations-It-was-a-pleas .text-style-1 {
+  font-size: 30px;
+  letter-spacing: 0.3px;
+}
+
+.Michael-Hopkins {
+  /* width: 132px; */
+  /* height: 9px; */
+  margin: 0px 614px 179px 614px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #fff;
+  display: block;
+  text-transform: uppercase;
+}
+
