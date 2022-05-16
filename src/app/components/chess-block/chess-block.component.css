@@ -1,6 +1,11 @@
 .container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+}
+
+.hight, .low {
+  display: flex;
 }
 
 .your-img-here,
@@ -50,8 +55,9 @@ img.pe-7s-look {
 }
 
 .bg {
-  width: 1366px;
+  /* width: 1366px; */
   height: 100px;
+  width: 100%;
   /* margin: 299px 0 100px; */
   /* padding: 46px 617px 45px 616px; */
   background-color: #f5f5f5;
