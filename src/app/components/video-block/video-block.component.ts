@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VideoBlockComponent implements OnInit {
 
+  mainTitle = 'Our Work Process';
+
   constructor() { }
 
   ngOnInit(): void {
