@@ -1,22 +1,39 @@
-.bg {
+.container {
   /* width: 1366px; */
   /* height: 535px; */
   width: 100%;
   margin: 100px 0 0;
-  padding: 100px 120px 100px 115px;
+  padding: 100px 0px 100px 0px;
   background-color: #f5f5f5;
 }
 
-.containerOne, .containerTwo {
-    display: flex;
+.container-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
 }
 
-img.pe-7s-diamond {
+.container-diamond,
+.container-arc,
+.container-phone,
+.container-joy,
+.container-plane,
+.container-star,
+.container-magic-wand,
+.container-paint-bucket {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+img.diamond {
   width: 42px;
   height: 39px;
-  margin: 2px 164px 29px 97px;
-  object-fit: contain;
-  font-family: Pe-icon-7-stroke;
+  /* margin: 2px 164px 29px 97px; */
+  /* object-fit: contain; */
+  /* font-family: Pe-icon-7-stroke;
   font-size: 48px;
   font-weight: normal;
   font-stretch: normal;
@@ -24,13 +41,13 @@ img.pe-7s-diamond {
   line-height: 0.63;
   letter-spacing: 2.4px;
   text-align: left;
-  color: #656565;
+  color: #656565; */
 }
 
-.ui-ux-design {
-  width: 106px;
-  height: 12px;
-  margin: 26px 132px 19px 65px;
+.title-diamond {
+  /* width: 106px;
+  height: 12px; */
+  /* margin: 26px 132px 19px 65px; */
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   font-weight: 500;
@@ -38,15 +55,15 @@ img.pe-7s-diamond {
   font-style: normal;
   line-height: 2.5;
   letter-spacing: 1.2px;
-  text-align: left;
+  text-align: center;
   color: #191919;
-  display: block;
+  /* display: block; */
 }
 
-.Be-set-fourth-land-god-darkness-make-it-wherein-own {
-  width: 229px;
-  height: 35px;
-  margin: 19px 70px 59px 4px;
+.description-diamond {
+  /* width: 229px;
+  height: 35px; */
+  /* margin: 19px 70px 59px 4px; */
   font-family: NunitoSans;
   font-size: 16px;
   font-weight: normal;
@@ -56,14 +73,15 @@ img.pe-7s-diamond {
   letter-spacing: 0.08px;
   text-align: center;
   color: #787878;
-  display: block;
+  white-space: pre-line;
+  /* display: block; */
 }
 
 
-img.pe-7s-arc {
+img.arc {
   width: 40px;
   height: 40px;
-  margin: 2px 170px 28px 161px;
+  /* margin: 2px 170px 28px 161px;
   object-fit: contain;
   font-family: Pe-icon-7-stroke;
   font-size: 48px;
@@ -73,13 +91,13 @@ img.pe-7s-arc {
   line-height: 0.63;
   letter-spacing: 2.4px;
   text-align: left;
-  color: #656565;
+  color: #656565; */
 }
 
-.web-development {
-  width: 143px;
-  height: 9px;
-  margin: 28px 118px 20px 110px;
+.title-arc {
+  /* width: 143px;
+  height: 9px; */
+  /* margin: 28px 118px 20px 110px; */
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   font-weight: 500;
@@ -87,15 +105,15 @@ img.pe-7s-arc {
   font-style: normal;
   line-height: 2.5;
   letter-spacing: 1.2px;
-  text-align: left;
+  text-align: center;
   color: #191919;
-  display: block;
+  /* display: block; */
 }
 
-.A-shed-them-bring-void-moving-third-shed-kind-fill {
-  width: 229px;
-  height: 35px;
-  margin: 19px 75px 59px 67px;
+.description-arc {
+  /* width: 229px;
+  height: 35px; */
+  /* margin: 19px 75px 59px 67px; */
   font-family: NunitoSans;
   font-size: 16px;
   font-weight: normal;
@@ -105,14 +123,14 @@ img.pe-7s-arc {
   letter-spacing: 0.08px;
   text-align: center;
   color: #787878;
-  display: block;
+  /* display: block; */
 }
 
 
-img.pe-7s-phone {
+img.phone {
   width: 26px;
   height: 44px;
-  margin: 0 171px 26px 175px;
+  /* margin: 0 171px 26px 175px;
   object-fit: contain;
   font-family: Pe-icon-7-stroke;
   font-size: 48px;
@@ -122,13 +140,13 @@ img.pe-7s-phone {
   line-height: 0.63;
   letter-spacing: 2.4px;
   text-align: left;
-  color: #656565;
+  color: #656565; */
 }
 
-.app-mobile {
-  width: 96px;
-  height: 12px;
-  margin: 26px 136px 19px 140px;
+.title-phone {
+  /* width: 96px;
+  height: 12px; */
+  /* margin: 26px 136px 19px 140px; */
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   font-weight: 500;
@@ -136,15 +154,15 @@ img.pe-7s-phone {
   font-style: normal;
   line-height: 2.5;
   letter-spacing: 1.2px;
-  text-align: left;
+  text-align: center;
   color: #191919;
-  display: block;
+  /* display: block; */
 }
 
-.Dominion-man-second-spirit-he-earth-theyre-creeping {
-  width: 225px;
-  height: 38px;
-  margin: 19px 71px 56px 76px;
+.description-phone {
+  /* width: 225px;
+  height: 38px; */
+  /* margin: 19px 71px 56px 76px; */
   font-family: NunitoSans;
   font-size: 16px;
   font-weight: normal;
@@ -154,14 +172,14 @@ img.pe-7s-phone {
   letter-spacing: 0.08px;
   text-align: center;
   color: #787878;
-  display: block;
+  /* display: block; */
 }
 
 
-img.pe-7s-joy {
+img.joy {
   width: 44px;
   height: 42px;
-  margin: 1px 91px 27px 163px;
+  /* margin: 1px 91px 27px 163px;
   object-fit: contain;
   font-family: Pe-icon-7-stroke;
   font-size: 48px;
@@ -171,13 +189,13 @@ img.pe-7s-joy {
   line-height: 0.63;
   letter-spacing: 2.4px;
   text-align: left;
-  color: #656565;
+  color: #656565; */
 }
 
-.game-design {
-  width: 99px;
-  height: 9px;
-  margin: 28px 63px 20px 136px;
+.title-joy {
+  /* width: 99px;
+  height: 9px; */
+  /* margin: 28px 63px 20px 136px; */
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   font-weight: 500;
@@ -185,15 +203,15 @@ img.pe-7s-joy {
   font-style: normal;
   line-height: 2.5;
   letter-spacing: 1.2px;
-  text-align: left;
+  text-align: center;
   color: #191919;
-  display: block;
+  /* display: block; */
 }
 
-.Morning-his-saying-moveth-it-multiply-appear-life-be {
-  width: 207px;
-  height: 38px;
-  margin: 19px 9px 56px 82px;
+.description-joy {
+  /* width: 207px;
+  height: 38px; */
+  /* margin: 19px 9px 56px 82px; */
   font-family: NunitoSans;
   font-size: 16px;
   font-weight: normal;
@@ -203,15 +221,15 @@ img.pe-7s-joy {
   letter-spacing: 0.08px;
   text-align: center;
   color: #787878;
-  display: block;
+  /* display: block; */
 }
 
 
 
-img.pe-7s-plane {
+img.plane {
   width: 44px;
   height: 44px;
-  margin: 57px 163px 26px 96px;
+  /* margin: 57px 163px 26px 96px;
   object-fit: contain;
   font-family: Pe-icon-7-stroke;
   font-size: 48px;
@@ -221,13 +239,13 @@ img.pe-7s-plane {
   line-height: 0.63;
   letter-spacing: 2.4px;
   text-align: left;
-  color: #656565;
+  color: #656565; */
 }
 
-.SEO-marketing {
-  width: 127px;
+.title-plane {
+  /* width: 127px;
   height: 12px;
-  margin: 25px 121px 19px 55px;
+  margin: 25px 121px 19px 55px; */
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   font-weight: 500;
@@ -237,13 +255,13 @@ img.pe-7s-plane {
   letter-spacing: 1.2px;
   text-align: left;
   color: #191919;
-  display: block;
+  /* display: block; */
 }
 
-.Give-wont-after-land-fill-creeping-meat-you-may {
-  width: 236px;
+.description-plane {
+  /* width: 236px;
   height: 38px;
-  margin: 19px 67px 0 0;
+  margin: 19px 67px 0 0; */
   font-family: NunitoSans;
   font-size: 16px;
   font-weight: normal;
@@ -253,14 +271,14 @@ img.pe-7s-plane {
   letter-spacing: 0.08px;
   text-align: center;
   color: #787878;
-  display: block;
+  /* display: block; */
 }
 
 
-img.pe-7s-star {
+img.star {
   width: 44px;
   height: 41px;
-  margin: 59px 168px 27px 159px;
+  /* margin: 59px 168px 27px 159px;
   object-fit: contain;
   font-family: Pe-icon-7-stroke;
   font-size: 48px;
@@ -270,13 +288,13 @@ img.pe-7s-star {
   line-height: 0.63;
   letter-spacing: 2.4px;
   text-align: left;
-  color: #656565;
+  color: #656565; */
 }
 
-.photography {
-  width: 107px;
+.title-star {
+  /* width: 107px;
   height: 9px;
-  margin: 27px 137px 20px 127px;
+  margin: 27px 137px 20px 127px; */
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   font-weight: 500;
@@ -286,13 +304,13 @@ img.pe-7s-star {
   letter-spacing: 1.2px;
   text-align: left;
   color: #191919;
-  display: block;
+  /* display: block; */
 }
 
-.Creepeth-one-seas-cattle-grass-give-moving-saw-give {
-  width: 220px;
+.description-star {
+  /* width: 220px;
   height: 38px;
-  margin: 19px 79px 0 72px;
+  margin: 19px 79px 0 72px; */
   font-family: NunitoSans;
   font-size: 16px;
   font-weight: normal;
@@ -302,14 +320,14 @@ img.pe-7s-star {
   letter-spacing: 0.08px;
   text-align: center;
   color: #787878;
-  display: block;
+  /* display: block; */
 }
 
 
-img.pe-7s-magic-wand {
+img.magic-wand {
   width: 39px;
   height: 40px;
-  margin: 59px 164px 28px 169px;
+  /* margin: 59px 164px 28px 169px;
   object-fit: contain;
   font-family: Pe-icon-7-stroke;
   font-size: 48px;
@@ -319,13 +337,13 @@ img.pe-7s-magic-wand {
   line-height: 0.63;
   letter-spacing: 2.4px;
   text-align: left;
-  color: #656565;
+  color: #656565; */
 }
 
-.graphic-design {
-  width: 121px;
+.title-magic-wand {
+  /* width: 121px;
   height: 9px;
-  margin: 27px 123px 20px 128px;
+  margin: 27px 123px 20px 128px; */
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   font-weight: 500;
@@ -335,13 +353,13 @@ img.pe-7s-magic-wand {
   letter-spacing: 1.2px;
   text-align: left;
   color: #191919;
-  display: block;
+  /* display: block; */
 }
 
-.Open-great-whales-air-rule-for-fourth-life-whales {
-  width: 221px;
+.description-magic-wand {
+  /* width: 221px;
   height: 35px;
-  margin: 19px 76px 3px 75px;
+  margin: 19px 76px 3px 75px; */
   font-family: NunitoSans;
   font-size: 16px;
   font-weight: normal;
@@ -351,14 +369,14 @@ img.pe-7s-magic-wand {
   letter-spacing: 0.08px;
   text-align: center;
   color: #787878;
-  display: block;
+  /* display: block; */
 }
 
 
-img.pe-7s-paint-bucket {
+img.paint-bucket {
   width: 43px;
   height: 46px;
-  margin: 56px 90px 25px 165px;
+  /* margin: 56px 90px 25px 165px;
   object-fit: contain;
   font-family: Pe-icon-7-stroke;
   font-size: 48px;
@@ -368,13 +386,13 @@ img.pe-7s-paint-bucket {
   line-height: 0.63;
   letter-spacing: 2.4px;
   text-align: left;
-  color: #656565;
+  color: #656565; */
 }
 
-.illustrations {
-  width: 109px;
+.title-paint-bucket {
+  /* width: 109px;
   height: 9px;
-  margin: 27px 58px 20px 131px;
+  margin: 27px 58px 20px 131px; */
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   font-weight: 500;
@@ -384,13 +402,13 @@ img.pe-7s-paint-bucket {
   letter-spacing: 1.2px;
   text-align: left;
   color: #191919;
-  display: block;
+  /* display: block; */
 }
 
-.Whales-likeness-hath-man-kind-for-them-air-two-wont {
-  width: 227px;
+.description-paint-bucket {
+  /* width: 227px;
   height: 35px;
-  margin: 19px 0 3px 71px;
+  margin: 19px 0 3px 71px; */
   font-family: NunitoSans;
   font-size: 16px;
   font-weight: normal;
@@ -400,5 +418,5 @@ img.pe-7s-paint-bucket {
   letter-spacing: 0.08px;
   text-align: center;
   color: #787878;
-  display: block;
+  /* display: block; */
 }
