@@ -12,8 +12,6 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 2;
   letter-spacing: 0.3px;
   text-align: center;
@@ -23,9 +21,6 @@
 .description {
   font-family: NunitoSans;
   font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.08px;
   text-align: center;
@@ -33,8 +28,6 @@
 }
 
 .video {
-  /* width: 1170px;
-  height: 571px; */
   width: 85.65vw;
   height: calc(85.65vw * 0.488);
   background-color: #e9e9e9;

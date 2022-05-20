@@ -1,17 +1,17 @@
-.bg {
-  /* width: 1367px; */
-  /* height: 200px; */
-  width: 100%;
-  /* margin: 4562px 0 1035px; */
-  /* padding: 64px 134px; */
+.container {
+  width: 100vw;
   background-color: #fff;
-  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 64px;
+  margin-bottom: 64px;
 }
 
 .img1 {
   width: 89px;
   height: 65px;
-  margin: 67px 150px 68px 134px;
   object-fit: contain;
   opacity: 0.5;
 }
@@ -19,7 +19,6 @@
 .img2 {
   width: 98px;
   height: 58px;
-  margin: 71px 150px 71px 0;
   object-fit: contain;
   opacity: 0.5;
 }
@@ -27,7 +26,6 @@
 .img3 {
   width: 127px;
   height: 72px;
-  margin: 64px 150px 64px 0;
   object-fit: contain;
   opacity: 0.5;
 }
@@ -35,7 +33,6 @@
 .img4 {
   width: 96px;
   height: 72px;
-  margin: 64px 150px 64px 0;
   object-fit: contain;
   opacity: 0.5;
 }
@@ -43,7 +40,6 @@
 .img5 {
   width: 89px;
   height: 65px;
-  margin: 67px 132px 68px 0px;
   object-fit: contain;
   opacity: 0.5;
 }
